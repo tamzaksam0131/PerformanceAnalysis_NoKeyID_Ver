@@ -24,7 +24,7 @@ def sql_graph_output():
                 + ' ' + 'AND Number_of_Job = ' + a['Number_of_Job_hist']\
                 + ' ' + 'AND IOdepth = ' + a['IOdepth_hist']\
                 + ' ' + 'AND blocksize = ' + a['Blocksize_hist']\
-               + ' ' + 'AND Index_table.Text_Table_Name =' + ' ' + a['Table_hist'][i] + '.table_name' \
+                + ' ' + 'AND Index_table.Text_Table_Name =' + ' ' + a['Table_hist'][i] + '.table_name' \
     
 
         sql_result = cur.execute(sql_sentence)
