@@ -37,11 +37,11 @@ IOdepth_rw: '"8"'
 
 # SQL_histogram.py
 Select_Data_hist: 'IOPS' # IOPS / MBPS 
-Table_hist: [VersaPLX2000_20220209_drbd]
+Table_hist: [VersaPLX2000_20220209_drbd, VersaPLX2000_20211229_drbd]
 Readwrite_hist: '"randwrite"' # read, write, randread, ranwrite
 Number_of_Job_hist: '"8"' 
 IOdepth_hist: '"8"'
-Blocksize_hist: '"1m"' # 4k / 1M
+Blocksize_hist: '"1M"' # 4k / 1M
 
 # SQL_deviation.py
 Standard_Value: IOPS # IOPS / MBPS

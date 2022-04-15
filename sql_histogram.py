@@ -26,7 +26,6 @@ def sql_graph_output():
                 + ' ' + 'AND blocksize = ' + a['Blocksize_hist']\
                 + ' ' + 'AND Index_table.Text_Table_Name =' + ' ' + a['Table_hist'][i] + '.table_name' \
     
-
         sql_result = cur.execute(sql_sentence)
     
         for row in sql_result:
@@ -35,7 +34,7 @@ def sql_graph_output():
             values.append(row[2])
             print(row)
 
-    print (sql_sentence)
+        print (sql_sentence)
     print (text_table)    
     print (values)
     print (drbd)
