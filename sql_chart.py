@@ -1,8 +1,6 @@
 import sqlite3
 import numpy as np
 import matplotlib
-
-from sql_deviation_1standard import sql_print_example_drbd
 matplotlib.use ('TKAgg')
 import matplotlib.pyplot as plt
 import yaml

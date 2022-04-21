@@ -3,8 +3,6 @@ import sqlite3
 from sqlite3.dbapi2 import ProgrammingError
 import numpy as np
 import matplotlib as mpl
-
-from sql_deviation_1standard import EXAMPLE_VALUES
 mpl.use ('TKAgg')
 import matplotlib.pyplot as plt
 import yaml

@@ -3,10 +3,10 @@ wanted data view: '*'
 table view: [VersaPLX2000_20220209_drbd, VersaPLX2000_20211229_drbd]
 
 # Input.py
-file input: '02_09_15_55_results.txt'
+file input: '08_06_05_23_results.txt'
 # Key ID: '9'
-Client Name: 'VersaPLX2000'
-Date: '20220209' #format example:20210101
+Client Name: 'b'
+Date: '202204021' #format example:20210101
 Disk Type: 'drbd'
 
 # SQL_select.py
